@@ -1,0 +1,10 @@
+import numpy as np
+a= np.array([[3, 6,7,8]])
+b=np.array([[3, 6,8,7], [4, 2,1,0],[3,1,3,3],[1,1,2,2]])
+print("1D Array:",a)
+print("2D Array:")
+print(b)
+x=np.diag(a)
+y=np.diag(b)
+print("Diagonal elements of 1D array:",x)
+print("Diagonal elements of 2D array:",y)

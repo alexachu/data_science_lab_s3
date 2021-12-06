@@ -1,0 +1,10 @@
+import numpy as np 
+arr1 =np.array([[5, 10, 15, 20, 25]])
+arr2= np.array([[1,2,3],[5,6,7],[8,9,10]])
+print("1D Array:",arr1)
+print("2D Array:")
+print(arr2)
+sum1= np.sum(arr1)   
+sum2= np.sum(arr2)   
+print("Sum of 1D array:",sum1)
+print("Sum of 2D array:",sum2) 

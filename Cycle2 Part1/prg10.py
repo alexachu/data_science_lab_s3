@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[1,2,3,4]])
+b=np.array([[0, 1, 2], [3, 4, 5],[6, 7, 8]])
+print("1D Array:",a)
+print("2D Array:")
+print(b)
+a=np.append(a,[5])
+b=np.append(b,[9,10,11])
+print("1D Array after appended:",a)
+print("2D Array after appended:",b)
