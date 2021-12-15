@@ -1,0 +1,10 @@
+import numpy as np
+M1=np.array([[5, 6], [7, 4]])
+M2=np.array([[8, 2], [6, 3]])
+M3=np.array([[5,4],[8,6]])
+Mul = M1.dot(M2)
+mul1=M3.dot(Mul)
+print("Matrix1:\n",M1)
+print("Matrix2:\n",M2)
+print("Matrix3:\n",M3)
+print("Multiplication of 3 matrices:\n",mul1)
